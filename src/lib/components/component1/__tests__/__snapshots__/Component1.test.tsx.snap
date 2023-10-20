@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Component1 > render Component1 1`] = `
+exports[`component1 > render Component1 1`] = `
 <div>
   <div
     class="sc-bdnyFh jpRFIU"
