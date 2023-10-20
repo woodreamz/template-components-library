@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "styled-components.vscode-styled-components",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-azure-devops.azure-pipelines",
+    "woodreamz.es7-react-js-snippets"
+  ]
+}
