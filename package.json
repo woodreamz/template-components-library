@@ -1,0 +1,72 @@
+{
+  "name": "components-library",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist",
+    "src/lib/icons"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "sandbox": "vite",
+    "build": "tsc --p ./tsconfig.build.json && vite build",
+    "test": "vitest",
+    "test:ci": "vitest --coverage --passWithNoTests --run --reporter=default --reporter=junit --outputFile=junit.xml",
+    "test:ui": "vitest --ui",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepublishOnly": "pnpm build",
+    "deps:update": "pnpm update --interactive --latest"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "9.3.3",
+    "@testing-library/jest-dom": "6.1.4",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.5.1",
+    "@types/node": "20.8.7",
+    "@types/react": "18.2.31",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "6.8.0",
+    "@typescript-eslint/parser": "6.8.0",
+    "@vitejs/plugin-react-swc": "3.4.0",
+    "@vitest/coverage-v8": "0.34.6",
+    "@vitest/ui": "0.34.6",
+    "eslint": "8.51.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-storybook": "0.6.15",
+    "eslint-plugin-testing-library": "6.1.0",
+    "eslint-plugin-vitest": "0.3.3",
+    "jsdom": "22.1.0",
+    "prettier": "3.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "6.1.0",
+    "typescript": "5.2.2",
+    "vite": "4.5.0",
+    "vite-plugin-dts": "3.6.0",
+    "vitest": "0.34.6"
+  }
+}
