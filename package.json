@@ -1,5 +1,5 @@
 {
-  "name": "components-library",
+  "name": "woodreamz-components-library",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -20,6 +20,8 @@
     "dev": "storybook dev -p 6006",
     "sandbox": "vite",
     "build": "tsc --p ./tsconfig.build.json && vite build",
+    "postbuild": "node scripts/postbuild.js",
+    "build:storybook": "storybook build",
     "test": "vitest",
     "test:ci": "vitest --coverage --passWithNoTests --run --reporter=default --reporter=junit --outputFile=junit.xml",
     "test:ui": "vitest --ui",

@@ -29,7 +29,7 @@ export default defineConfig({
   build: {
     lib: {
       // Entry point for the library
-      entry: [resolve(__dirname, 'src/lib/index.ts')],
+      entry: resolve(__dirname, 'src/lib/index.ts'),
       formats: ['es'],
     },
     rollupOptions: {
@@ -53,5 +53,12 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(), dts({ include: ['src/lib'] })],
+  plugins: [
+    react(),
+    dts({
+      include: ['src/lib'],
+      // To keep the same folder structure for .d,ts
+      entryRoot: 'src/lib',
+    }),
+  ],
 });
