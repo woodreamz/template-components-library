@@ -1,6 +1,4 @@
-/* eslint-disable react/require-default-props */
-import React from 'react';
-import MUIButton, { ButtonProps as MuiButtonProps } from '@mui/material/Button';
+import MuiButton, { ButtonProps as MuiButtonProps } from '@mui/material/Button';
 import styled from 'styled-components';
 import {
   getColor,
@@ -46,7 +44,7 @@ const getPadding = (size: any) => {
 // #endregion
 
 // #region styled-components
-const StyledButton = styled(MUIButton)<{
+const StyledButton = styled(MuiButton)<{
   $size: string;
   $flavor: string;
   variant: string;
@@ -116,40 +114,34 @@ const StyledButton = styled(MUIButton)<{
 // #endregion
 
 // #region components
-interface ButtonProps extends Omit<MuiButtonProps, 'ref'> {
+export interface ButtonProps extends MuiButtonProps {
   flavor?: string;
   svgColorAttribute?: string;
   svgStrokeWidth?: number;
 }
 
-const Button = React.forwardRef(
-  (
-    {
-      children,
-      classes,
-      flavor = flavors.normal,
-      svgColorAttribute = 'stroke',
-      svgStrokeWidth = 1.5,
-      ...others
-    }: ButtonProps,
-    ref
-  ) => {
-    return (
-      <StyledButton<any>
-        {...others}
-        ref={ref}
-        $size={sizes.medium}
-        classes={{ ...defaultClasses, ...classes }}
-        $flavor={flavor}
-        $svgColorAttribute={svgColorAttribute}
-        $svgStrokeWidth={svgStrokeWidth}
-        disableElevation
-      >
-        {children}
-      </StyledButton>
-    );
-  }
-);
+const Button = ({
+  children,
+  classes,
+  flavor = flavors.normal,
+  svgColorAttribute = 'stroke',
+  svgStrokeWidth = 1.5,
+  ...others
+}: ButtonProps) => {
+  return (
+    <StyledButton<any>
+      {...others}
+      $size={sizes.medium}
+      classes={{ ...defaultClasses, ...classes }}
+      $flavor={flavor}
+      $svgColorAttribute={svgColorAttribute}
+      $svgStrokeWidth={svgStrokeWidth}
+      disableElevation
+    >
+      {children}
+    </StyledButton>
+  );
+};
 // #endregion
 
 export default Button;

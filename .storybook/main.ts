@@ -16,5 +16,28 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
+  typescript: {
+    reactDocgen: 'react-docgen-typescript',
+    reactDocgenTypescriptOptions: {
+      // Speeds up Storybook build time
+      compilerOptions: {
+        allowSyntheticDefaultImports: false,
+        esModuleInterop: false,
+      },
+      // Makes union prop types like variant and size appear as select controls
+      shouldExtractLiteralValuesFromEnum: true,
+      // Makes string and boolean types that can be undefined appear as inputs and switches
+      shouldRemoveUndefinedFromOptional: true,
+      // Filter out third-party props from node_modules except @mui packages
+      propFilter: (prop) => {
+        if (prop.parent) {
+          console.log(prop);
+          // return prop.parent ? !/node_modules\/(?!@mui)/.test(prop.parent.fileName) : true;
+          return prop.parent ? prop.parent.fileName.includes('@mui') : true;
+        }
+        return true;
+      },
+    },
+  },
 };
 export default config;

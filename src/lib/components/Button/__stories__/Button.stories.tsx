@@ -1,5 +1,4 @@
 import { Box, Stack } from '@mui/material';
-import { flavors, sizes, variants } from '../../../theme/utils/styleUtils';
 import Button from '../Button';
 import type { Meta, StoryObj } from '@storybook/react';
 
@@ -14,35 +13,6 @@ const meta: Meta<typeof Button> = {
       },
     },
   },
-  argTypes: {
-    children: {
-      control: false,
-    },
-    classes: {
-      control: false,
-    },
-    className: {
-      control: false,
-    },
-    component: {
-      control: false,
-    },
-    endIcon: {
-      control: false,
-    },
-    startIcon: {
-      control: false,
-    },
-    flavor: {
-      options: Object.values(flavors),
-    },
-    size: {
-      options: Object.values(sizes),
-    },
-    variant: {
-      options: ['text', variants.outlined, variants.contained],
-    },
-  },
 };
 
 export default meta;
@@ -50,7 +20,10 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Basic: Story = {
-  args: {},
+  args: {
+    children: 'My Button',
+    variant: 'contained',
+  },
 };
 
 export const Example: Story = {
