@@ -1,14 +1,8 @@
 {
   "name": "woodreamz-components-library",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.5",
   "type": "module",
-  "files": [
-    "dist"
-  ],
-  "publishConfig": {
-    "directory": "dist"
-  },
   "main": "./index.js",
   "module": "./index.js",
   "types": "./index.d.ts",
@@ -29,7 +23,6 @@
     "test:ui": "vitest --ui",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "prepublishOnly": "pnpm build",
     "deps:update": "pnpm update --interactive --latest"
   },
   "peerDependencies": {
