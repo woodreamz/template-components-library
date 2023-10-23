@@ -1,11 +1,14 @@
 /// <reference types="vitest" />
 
 import react from '@vitejs/plugin-react-swc';
-import { resolve } from 'path';
+import { glob } from 'glob';
+import { fileURLToPath } from 'node:url';
+import { resolve, extname, relative } from 'path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
 // https://vitejs.dev/config/
+// Inspired by: https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma
 export default defineConfig({
   test: {
     // https://vitest.dev/config/
@@ -36,13 +39,24 @@ export default defineConfig({
       // make sure to externalize deps that shouldn't be bundled
       // into your library
       external: ['react', 'styled-components', 'react/jsx-runtime'],
+      input: Object.fromEntries(
+        // https://rollupjs.org/configuration-options/#input
+        glob.sync('src/lib/**/!(*.d|*.test|*.stories).{ts,tsx}').map((file) => [
+          // 1. The name of the entry point
+          // lib/nested/foo.js becomes nested/foo
+          relative('src/lib', file.slice(0, file.length - extname(file).length)),
+          // 2. The absolute path to the entry file
+          // lib/nested/foo.ts becomes /project/lib/nested/foo.ts
+          fileURLToPath(new URL(file, import.meta.url)),
+        ])
+      ),
       output: {
         assetFileNames: 'assets/[name][extname]',
         // https://rollupjs.org/configuration-options/#output-entryfilenames
         // If you need to to build the lib in multiple formats, consider adding a format in your path.
         // entryFileNames: "[format]/[name].js",
         entryFileNames: '[name].js',
-        preserveModules: true,
+        // preserveModules: true,
         // Externalized deps
         globals: {
           react: 'React',
@@ -57,8 +71,10 @@ export default defineConfig({
     react(),
     dts({
       include: ['src/lib'],
-      // To keep the same folder structure for .d,ts
+      // To keep the same folder structure for .d.ts
       entryRoot: 'src/lib',
+      // Do not generate .d.ts for tests and stories.
+      exclude: ['**/*.test.*', '**/*.stories.*'],
     }),
   ],
 });

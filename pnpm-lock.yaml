@@ -113,6 +113,9 @@ devDependencies:
   fs-extra:
     specifier: 11.1.1
     version: 11.1.1
+  glob:
+    specifier: 10.3.10
+    version: 10.3.10
   jsdom:
     specifier: 22.1.0
     version: 22.1.0
