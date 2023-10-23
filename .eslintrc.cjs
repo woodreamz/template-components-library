@@ -104,7 +104,13 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/vite.config.ts', '**/tests/*', '**/*.stories.*', '**/*.test.*'],
+        devDependencies: [
+          '**/vite.config.ts',
+          '**/tests/*',
+          '**/*.stories.*',
+          '**/*.test.*',
+          'scripts/*',
+        ],
       },
     ],
   },
