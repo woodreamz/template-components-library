@@ -1,7 +1,7 @@
 # Getting Started
 
 This is a template for components library.
-Built with vite, swc, vitest, eslint (airbnb style), typescript and storybook.
+Built with vite (library mode), swc, vitest, eslint (airbnb style), typescript and storybook.
 
 1. Requirements
 
