@@ -38,7 +38,14 @@ export default defineConfig({
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: ['react', 'styled-components', 'react/jsx-runtime'],
+      external: [
+        'react',
+        'styled-components',
+        'react/jsx-runtime',
+        '@mui/material',
+        'color-convert',
+        '@emotion/is-prop-valid',
+      ],
       input: Object.fromEntries(
         // https://rollupjs.org/configuration-options/#input
         glob.sync('src/lib/**/!(*.d|*.test|*.stories).{js,jsx,ts,tsx}').map((file) => [

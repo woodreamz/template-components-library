@@ -1,0 +1,2119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Should render contained variant with attention flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #ffffff;
+  background-color: #0098E2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: #0085C6;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.c1:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  box-shadow: none;
+  background-color: #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #FDB813;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #ffffff;
+  background-color: rgba(253, 184, 19, 0.65);
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #ffffff;
+  background-color: rgba(253, 184, 19, 0.85);
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: #0098E2;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render contained variant with caution flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #ffffff;
+  background-color: #0098E2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: #0085C6;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.c1:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  box-shadow: none;
+  background-color: #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #DA291C;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #ffffff;
+  background-color: rgba(218, 41, 28, 0.65);
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #ffffff;
+  background-color: rgba(218, 41, 28, 0.85);
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: #0098E2;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render contained variant with good flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #ffffff;
+  background-color: #0098E2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: #0085C6;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.c1:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  box-shadow: none;
+  background-color: #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #4CA500;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #ffffff;
+  background-color: rgba(76, 165, 0, 0.65);
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #ffffff;
+  background-color: rgba(76, 165, 0, 0.85);
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: #0098E2;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render contained variant with normal flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #ffffff;
+  background-color: #0098E2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: #0085C6;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.c1:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  box-shadow: none;
+  background-color: #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0098E2;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #ffffff;
+  background-color: #0085C6;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #ffffff;
+  background-color: #00679B;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: #0098E2;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render correctly 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #ffffff;
+  background-color: #0098E2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: #0085C6;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.c1:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  box-shadow: none;
+  background-color: #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0098E2;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #ffffff;
+  background-color: #0085C6;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #ffffff;
+  background-color: #00679B;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: #0098E2;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render outlined variant with attention flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid rgba(0, 152, 226, 0.5);
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+  border: 1px solid #0098E2;
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  border: 1px solid #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #FDB813;
+  background-color: transparent;
+  border: solid 1px #FDB813;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: rgba(253, 184, 19, 0.65);
+  background-color: transparent;
+  border: solid 1px rgba(253, 184, 19, 0.65);
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: rgba(253, 184, 19, 0.85);
+  background-color: transparent;
+  border: solid 1px rgba(253, 184, 19, 0.85);
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render outlined variant with good flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid rgba(0, 152, 226, 0.5);
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+  border: 1px solid #0098E2;
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  border: 1px solid #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #4CA500;
+  background-color: transparent;
+  border: solid 1px #4CA500;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: rgba(76, 165, 0, 0.65);
+  background-color: transparent;
+  border: solid 1px rgba(76, 165, 0, 0.65);
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: rgba(76, 165, 0, 0.85);
+  background-color: transparent;
+  border: solid 1px rgba(76, 165, 0, 0.85);
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render outlined variant with normal flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid rgba(0, 152, 226, 0.5);
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+  border: 1px solid #0098E2;
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  border: 1px solid #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #0098E2;
+  background-color: transparent;
+  border: solid 1px #0098E2;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #0085C6;
+  background-color: transparent;
+  border: solid 1px #0085C6;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #00679B;
+  background-color: transparent;
+  border: solid 1px #00679B;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render text variant with attention flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #FDB813;
+  background-color: transparent;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: rgba(253, 184, 19, 0.65);
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: rgba(253, 184, 19, 0.85);
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render text variant with caution flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #DA291C;
+  background-color: transparent;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: rgba(218, 41, 28, 0.65);
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: rgba(218, 41, 28, 0.85);
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render text variant with good flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #4CA500;
+  background-color: transparent;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: rgba(76, 165, 0, 0.65);
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: rgba(76, 165, 0, 0.85);
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render text variant with normal flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #0098E2;
+  background-color: transparent;
+  border: solid 1px transparent;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: #0085C6;
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: #00679B;
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: transparent;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> Should render variant with caution flavor 1`] = `
+.c0 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c0::-moz-focus-inner {
+  border-style: none;
+}
+
+.c0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+  min-width: 64px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid rgba(0, 152, 226, 0.5);
+  color: #0098E2;
+  box-shadow: none;
+}
+
+.c1:hover {
+  text-decoration: none;
+  background-color: rgba(0, 152, 226, 0.04);
+  border: 1px solid #0098E2;
+}
+
+.c1.Mui-disabled {
+  color: #ADADAD;
+  border: 1px solid #EBEBEB;
+}
+
+.c1:hover {
+  box-shadow: none;
+}
+
+.c1.Mui-focusVisible {
+  box-shadow: none;
+}
+
+.c1:active {
+  box-shadow: none;
+}
+
+.c1.Mui-disabled {
+  box-shadow: none;
+}
+
+.c2.c2.buttonRoot {
+  min-height: 34px;
+  height: 34px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  text-transform: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #DA291C;
+  background-color: transparent;
+  border: solid 1px #DA291C;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.c2.c2.buttonRoot svg {
+  height: 16px;
+  width: 16px;
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.c2.c2.buttonRoot:hover {
+  color: rgba(218, 41, 28, 0.65);
+  background-color: transparent;
+  border: solid 1px rgba(218, 41, 28, 0.65);
+}
+
+.c2.c2.buttonRoot:hover svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonRoot.buttonFocusVisible {
+  box-shadow: 0px 0px 4px 0px rgba(0, 152, 226, 0.5);
+}
+
+.c2.c2.buttonRoot:active {
+  color: rgba(218, 41, 28, 0.85);
+  background-color: transparent;
+  border: solid 1px rgba(218, 41, 28, 0.85);
+}
+
+.c2.c2.buttonRoot:active svg {
+  stroke: currentColor;
+}
+
+.c2.c2.buttonDisabled {
+  color: #ADADAD;
+  background-color: #EBEBEB;
+  border: solid 1px transparent;
+}
+
+.c2.c2.buttonDisabled svg {
+  stroke: currentColor;
+}
+
+@media print {
+  .c0 {
+    color-adjust: exact;
+  }
+}
+
+@media (hover: none) {
+  .c1:hover {
+    background-color: transparent;
+  }
+}
+
+<div>
+  <button
+    class="c0 MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c1 MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation c2"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;

@@ -1,0 +1,157 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Button /> > should render contained variant with attention flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ dFJbXi MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation sc-dlniIP jLnkCj"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render contained variant with caution flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ dFJbXi MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation sc-dlniIP gZIjSF"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render contained variant with good flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ dFJbXi MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation sc-dlniIP coPgxu"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render contained variant with normal flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ dFJbXi MuiButton-root buttonRoot MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation sc-dlniIP jlWsQX"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render correctly 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ hxiUDP MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation sc-dlniIP fHiWKo"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render outlined variant with attention flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ gdXmSA MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation sc-dlniIP bIUBKn"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render outlined variant with good flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ gdXmSA MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation sc-dlniIP gtNozz"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render outlined variant with normal flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ gdXmSA MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation sc-dlniIP gMExNX"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render text variant with attention flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ hxiUDP MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation sc-dlniIP kyWFfQ"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render text variant with caution flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ hxiUDP MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation sc-dlniIP ixmAXe"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render text variant with good flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ hxiUDP MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation sc-dlniIP gwkGwp"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render text variant with normal flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ hxiUDP MuiButton-root buttonRoot MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation sc-dlniIP fHiWKo"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;
+
+exports[`<Button /> > should render variant with caution flavor 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root-JLQss eudYYC MuiButtonBase-root MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation MuiButton-root-gxrVZJ gdXmSA MuiButton-root buttonRoot MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-disableElevation sc-dlniIP kJSHoL"
+    tabindex="0"
+    type="button"
+  >
+    Click here
+  </button>
+</div>
+`;

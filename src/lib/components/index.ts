@@ -1,2 +1,2 @@
-export * from './component1';
-export * from './component2';
+// eslint-disable-next-line import/prefer-default-export
+export { default as Button } from './Button';

@@ -3,15 +3,8 @@ import StoryWrapper from './StoryWrapper';
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: '^on[A-Z].*' },
     backgrounds: {
       disable: true,
-    },
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/,
-      },
     },
   },
   decorators: [StoryWrapper],
@@ -23,8 +16,11 @@ const preview: Preview = {
       toolbar: {
         icon: 'contrast',
         items: [
-          { value: 'light', title: 'Light' },
-          { value: 'dark', title: 'Dark' },
+          { value: 'light', title: 'Distech Light' },
+          { value: 'dark', title: 'Distech Dark' },
+          { value: 'atriusLight', title: 'Atrius Light' },
+          { value: 'atriusDark', title: 'Atrius Dark' },
+          { value: 'soaLight', title: 'SOA Light' },
         ],
       },
     },

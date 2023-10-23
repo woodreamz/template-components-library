@@ -1,0 +1,122 @@
+import { colors, fonts, typography, components } from '../globals';
+
+// Distech's dark theme has not been defined yet for beta components,
+// use light tokens for now.
+import beta from './beta/DistechLight';
+
+export default {
+  typography,
+  palette: {
+    mode: 'dark',
+    common: {
+      black: colors.black,
+      white: colors.black,
+    },
+    primary: {
+      main: colors.blue300,
+      light: colors.blue200,
+      dark: colors.blue400,
+      contrastText: colors.white,
+    },
+    secondary: {
+      main: colors.darkBlue200,
+      light: colors.darkBlue100,
+      dark: colors.darkBlue300,
+      contrastText: colors.white,
+    },
+    error: {
+      main: colors.red,
+      light: colors.red,
+      dark: colors.red,
+      contrastText: colors.white,
+    },
+    warning: {
+      main: colors.orange,
+      light: colors.orange,
+      dark: colors.orange,
+      contrastText: colors.white,
+    },
+    info: {
+      main: colors.blue300,
+      light: colors.blue200,
+      dark: colors.blue400,
+      contrastText: colors.white,
+    },
+    success: {
+      main: colors.green,
+      light: colors.green,
+      dark: colors.green,
+      contrastText: colors.white,
+    },
+    background: {
+      paper: colors.darkBlue500,
+      default: colors.darkBlue500,
+    },
+    grey: {
+      50: '#fafafa',
+      100: colors.darkGrey100,
+      200: colors.darkGrey200,
+      300: colors.darkGrey300,
+      400: colors.darkBlue100,
+      500: colors.darkBlue200,
+      600: colors.darkBlue300,
+      700: colors.darkBlue400,
+      800: colors.darkBlue500,
+      900: colors.darkBlue600,
+      A100: colors.darkGrey200,
+      A200: colors.darkGrey300,
+      A400: colors.darkBlue100,
+      A700: colors.darkBlue300,
+    },
+    action: {
+      active: 'rgba(0, 0, 0, 0.54)',
+      hover: 'rgba(0, 0, 0, 0.04)',
+      hoverOpacity: 0.04,
+      selected: 'rgba(0, 0, 0, 0.08)',
+      selectedOpacity: 0.08,
+      disabled: colors.darkBlue100,
+      disabledBackground: colors.darkBlue100,
+      disabledOpacity: 0.38,
+      focus: 'rgba(0, 0, 0, 0.12)',
+      focusOpacity: 0.12,
+      activatedOpacity: 0.12,
+    },
+    text: {
+      primary: colors.white,
+      secondary: colors.darkGrey300,
+      disabled: colors.darkBlue100,
+    },
+  },
+
+  colors,
+  fonts,
+  text: {
+    fontFamily: fonts.fontFamily,
+    primary: colors.white,
+    secondary: colors.darkGrey300,
+    tertiary: colors.darkGrey300,
+  },
+  primaryBackground: colors.darkBlue500,
+  secondaryBackground: colors.darkBlue400,
+  tertiaryBackground: colors.darkBlue300,
+  primaryFill: colors.blue300,
+  primaryFocus: colors.blue300,
+  primaryHover: colors.blue400,
+  primarySelected: colors.blue500,
+  primaryDisabled: colors.darkBlue200,
+  secondaryDisabled: colors.darkBlue100,
+  primaryBorder: colors.darkBlue200,
+  primaryShadow: 'rgba(0, 0, 0, 0.14)',
+  secondaryShadow: 'rgba(0, 0, 0, 0.1)',
+  plain: colors.darkGrey300,
+  good: colors.green,
+  attention: colors.yellow,
+  metric: colors.orange,
+  caution: colors.red,
+  marketing: colors.purple,
+  isLightTheme: false,
+  components,
+
+  // New design system tokens go ONLY here
+  beta,
+};
