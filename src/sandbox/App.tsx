@@ -1,4 +1,5 @@
-import { Component1, Component2 } from '../..';
+import { Component1 } from '../../dist';
+import { Component2 } from '../../dist/components/component2';
 
 function App() {
   return (
