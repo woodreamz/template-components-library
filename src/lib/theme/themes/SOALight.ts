@@ -1,5 +1,5 @@
-import distechLight from './DistechLight';
 import beta from './beta/SOALight';
+import distechLight from './DistechLight';
 
 const { beta: ignore, ...light } = distechLight;
 

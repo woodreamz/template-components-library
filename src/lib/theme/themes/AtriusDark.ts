@@ -1,5 +1,5 @@
-import distechDark from './DistechDark';
 import beta from './beta/AtriusDark';
+import distechDark from './DistechDark';
 
 const { beta: ignore, ...dark } = distechDark;
 
