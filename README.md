@@ -1,6 +1,6 @@
 # Getting Started
 
-This is a template for components library.
+This is a template for the Fusion library.
 Built with vite (library mode), swc, vitest, eslint (airbnb style), typescript and storybook.
 
 1. Requirements
