@@ -110,6 +110,9 @@ devDependencies:
   eslint-plugin-vitest:
     specifier: 0.3.3
     version: 0.3.3(@typescript-eslint/eslint-plugin@6.8.0)(eslint@8.51.0)(typescript@5.2.2)(vitest@0.34.6)
+  fs-extra:
+    specifier: 11.1.1
+    version: 11.1.1
   jsdom:
     specifier: 22.1.0
     version: 22.1.0
@@ -10449,3 +10452,5 @@ packages:
     optionalDependencies:
       commander: 9.5.0
     dev: true
+
+publishDirectory: dist
