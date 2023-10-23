@@ -49,3 +49,11 @@ pnpm test
 ```bash
 pnpm build
 ```
+
+8. Publish
+
+To publish the package:
+
+```bash
+pnpm build && pnpm publish ./dist
+``````
