@@ -7,6 +7,28 @@ import { resolve, extname, relative } from 'path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
+/**
+ * External dependencies that should not be bundled into your library.
+ */
+const EXTERNAL_DEPENDENCIES = [
+  'react',
+  'react-is',
+  'styled-components',
+  'react/jsx-runtime',
+  '@mui/icons-material',
+  '@mui/lab',
+  '@mui/material',
+  '@mui/material(.*)',
+  '@mui/material/Button',
+  '@mui/material/styles',
+  '@mui/x-date-pickers',
+  '@mui/x-tree-view',
+  'color-convert',
+  '@emotion/is-prop-valid',
+  'styled-reset',
+  'lodash',
+];
+
 // https://vitejs.dev/config/
 // Inspired by: https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma
 export default defineConfig({
@@ -36,17 +58,8 @@ export default defineConfig({
       formats: ['es'],
     },
     rollupOptions: {
-      // make sure to externalize deps that shouldn't be bundled
-      // into your library
-      external: [
-        'react',
-        'styled-components',
-        'react/jsx-runtime',
-        '@mui/material',
-        'color-convert',
-        '@emotion/is-prop-valid',
-        'styled-reset',
-      ],
+      // externalize deps that shouldn't be bundled into your library
+      external: EXTERNAL_DEPENDENCIES,
       input: Object.fromEntries(
         // https://rollupjs.org/configuration-options/#input
         glob.sync('src/lib/**/!(*.d|*.test|*.stories).{js,jsx,ts,tsx}').map((file) => [
@@ -62,16 +75,9 @@ export default defineConfig({
         assetFileNames: 'assets/[name][extname]',
         // https://rollupjs.org/configuration-options/#output-entryfilenames
         // If you need to to build the lib in multiple formats, consider adding a format in your path.
-        // entryFileNames: "[format]/[name].js",
+        // entryFileNames: '[format]/[name].js',
         entryFileNames: '[name].js',
         // preserveModules: true,
-        // Externalized deps
-        globals: {
-          react: 'React',
-          'react/jsx-runtime': 'react/jsx-runtime',
-          'react-dom': 'ReactDOM',
-          'styled-components': 'StyledComponents',
-        },
       },
     },
   },
