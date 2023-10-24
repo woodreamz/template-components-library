@@ -17,6 +17,7 @@ const config: StorybookConfig = {
     autodocs: true,
   },
   typescript: {
+    // Source: https://storybook.js.org/recipes/@mui/material
     reactDocgen: 'react-docgen-typescript',
     reactDocgenTypescriptOptions: {
       // Speeds up Storybook build time
@@ -31,8 +32,6 @@ const config: StorybookConfig = {
       // Filter out third-party props from node_modules except @mui packages
       propFilter: (prop) => {
         if (prop.parent) {
-          console.log(prop);
-          // return prop.parent ? !/node_modules\/(?!@mui)/.test(prop.parent.fileName) : true;
           return prop.parent ? prop.parent.fileName.includes('@mui') : true;
         }
         return true;

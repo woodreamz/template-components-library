@@ -45,6 +45,7 @@ export default defineConfig({
         '@mui/material',
         'color-convert',
         '@emotion/is-prop-valid',
+        'styled-reset',
       ],
       input: Object.fromEntries(
         // https://rollupjs.org/configuration-options/#input
