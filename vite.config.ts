@@ -29,6 +29,10 @@ const EXTERNAL_DEPENDENCIES = [
   'lodash',
 ];
 
+const LIB_FOLDER = 'src/lib';
+
+const EXCLUDED_EXTENSIONS = ['*.test', '*.stories', '*.d.ts'];
+
 // https://vitejs.dev/config/
 // Inspired by: https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma
 export default defineConfig({
@@ -39,7 +43,7 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['cobertura', 'html', 'text'],
-      include: ['src/lib'],
+      include: [LIB_FOLDER],
       exclude: [
         '**/tests/**',
         '**/__tests__/**',
@@ -54,7 +58,7 @@ export default defineConfig({
   build: {
     lib: {
       // Entry point for the library
-      entry: resolve(__dirname, 'src/lib/index.ts'),
+      entry: resolve(__dirname, `${LIB_FOLDER}/index.ts`),
       formats: ['es'],
     },
     rollupOptions: {
@@ -62,7 +66,7 @@ export default defineConfig({
       external: EXTERNAL_DEPENDENCIES,
       input: Object.fromEntries(
         // https://rollupjs.org/configuration-options/#input
-        glob.sync('src/lib/**/!(*.d|*.test|*.stories).{js,jsx,ts,tsx}').map((file) => [
+        glob.sync(`src/lib/**/!(${EXCLUDED_EXTENSIONS.join('|')}).{js,jsx,ts,tsx}`).map((file) => [
           // 1. The name of the entry point
           // lib/nested/foo.js becomes nested/foo
           relative('src/lib', file.slice(0, file.length - extname(file).length)),
@@ -84,9 +88,9 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
-      include: ['src/lib'],
+      include: [LIB_FOLDER],
       // To keep the same folder structure for .d.ts
-      entryRoot: 'src/lib',
+      entryRoot: LIB_FOLDER,
       // Do not generate .d.ts for tests and stories.
       exclude: ['**/*.test.*', '**/*.stories.*'],
     }),
