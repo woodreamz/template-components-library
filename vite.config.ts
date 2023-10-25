@@ -6,31 +6,28 @@ import { fileURLToPath } from 'node:url';
 import { resolve, extname, relative } from 'path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
+import pkg from './package.json';
 
 /**
  * External dependencies that should not be bundled into your library.
  */
 const EXTERNAL_DEPENDENCIES = [
-  'react',
-  'react-is',
-  'styled-components',
+  // Automatically externalize peerDependencies
+  ...Object.keys(pkg.peerDependencies || {}),
+  // Add other dependency that should be externalized
   'react/jsx-runtime',
-  '@mui/icons-material',
-  '@mui/lab',
-  '@mui/material',
-  '@mui/material(.*)',
-  '@mui/material/Button',
-  '@mui/material/styles',
-  '@mui/x-date-pickers',
-  '@mui/x-tree-view',
-  'color-convert',
-  '@emotion/is-prop-valid',
-  'styled-reset',
-  'lodash',
+  // Externalize any @mui import.
+  /@mui/,
 ];
 
+/**
+ * The folder where the library is located.
+ */
 const LIB_FOLDER = 'src/lib';
 
+/**
+ * The extensions that should be excluded from the build.
+ */
 const EXCLUDED_EXTENSIONS = ['*.test', '*.stories', '*.d.ts'];
 
 // https://vitejs.dev/config/
