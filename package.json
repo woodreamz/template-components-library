@@ -12,6 +12,11 @@
       "import": "./index.js"
     }
   },
+  "homepage": "https://fusion.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
     "dev": "storybook dev -p 6006",
     "sandbox": "vite",
@@ -23,24 +28,22 @@
     "test:ui": "vitest --ui",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deps:update": "pnpm update --interactive --latest",
-    "prepublishOnly": "node ./scripts/prepublish.cjs"
+    "deps:update": "pnpm update --interactive --latest"
   },
   "peerDependencies": {
+    "@emotion/is-prop-valid": "^1.2.1",
     "@mui/icons-material": "^5",
     "@mui/lab": "^5.0.0-alpha.143",
     "@mui/material": "^5",
     "@mui/x-date-pickers": "^6",
     "@mui/x-tree-view": "^6.0.0-alpha.1",
+    "color-convert": "^2.0.1",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.0",
-    "@emotion/is-prop-valid": "^1.2.1",
-    "color-convert": "^2.0.1",
-    "lodash": "^4.17.21",
     "styled-reset": "^4.5.1"
   },
-  "dependencies": {},
   "devDependencies": {
     "@emotion/is-prop-valid": "1.2.1",
     "@mui/icons-material": "5.14.12",
