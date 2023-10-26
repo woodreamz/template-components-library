@@ -1,7 +1,7 @@
 {
-  "name": "woodreamz-fusion-library-poc",
+  "name": "@acuity-brands/fusion",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.1",
   "type": "module",
   "main": "./index.js",
   "module": "./index.js",
@@ -23,7 +23,8 @@
     "test:ui": "vitest --ui",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deps:update": "pnpm update --interactive --latest"
+    "deps:update": "pnpm update --interactive --latest",
+    "prepublishOnly": "node ./scripts/prepublish.cjs"
   },
   "peerDependencies": {
     "@mui/icons-material": "^5",
